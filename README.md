@@ -1,0 +1,1 @@
+This simply displays a message saying how much time ago vscode was launched. For example "2 hours ago" or "35 minutes ago" or "1 hour and 20 minutes ago". This is invoked through the "When Did I Start Working?" command.

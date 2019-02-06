@@ -1,0 +1,42 @@
+{
+	"name": "when-did-i-start-working",
+	"displayName": "When Did I Start Working?",
+	"description": "Shows how much time ago vscode was launched",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.when",
+				"title": "When Did I Start Working?"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"keywords": ["productivity", "time", "clock", "duration", "measure"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/madprops/when-did-i-wake-up.git"
+	},
+	"icon": "icon.png",
+	"publisher": "madprops"
+}
