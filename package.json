@@ -2,7 +2,7 @@
 	"name": "when-did-i-start-working",
 	"displayName": "When Did I Start Working?",
 	"description": "Shows how much time ago vscode was launched",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.30.0"
 	},
@@ -35,7 +35,7 @@
 	"keywords": ["productivity", "time", "clock", "duration", "measure"],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/madprops/when-did-i-wake-up.git"
+		"url": "https://github.com/madprops/when-did-i-start-working.git"
 	},
 	"icon": "icon.png",
 	"publisher": "madprops"
